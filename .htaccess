@@ -1,0 +1,4 @@
+DirectoryIndex index.html
+<FilesMatch "^(config\..*\.php|.*\.(sql|log|md|json|ini|zip))$">
+    Require all denied
+</FilesMatch>
